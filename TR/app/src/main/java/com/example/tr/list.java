@@ -29,11 +29,27 @@ public class list extends AppCompatActivity {
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String Templistview = values[position].toString();
-                Intent intent = new Intent(list.this, tampil2.class);
-                intent.putExtra("Listviewclickvalue", Templistview);
-                startActivity(intent);
+            public void onItemClick(AdapterView<?> parent, View view, int potition, long id) {
+                if (potition == 0) {
+                    Intent intent = new Intent(list.this, Wisata1.class);
+                    startActivity(intent);
+                }
+                if (potition == 1) {
+                    Intent intent = new Intent(list.this, Wisata2.class);
+                    startActivity(intent);
+                }
+                if (potition == 2) {
+                    Intent intent = new Intent(list.this, Wisata3.class);
+                    startActivity(intent);
+                }
+                if (potition == 3) {
+                    Intent intent = new Intent(list.this, Wisata4.class);
+                    startActivity(intent);
+                }
+                if (potition == 3) {
+                    Intent intent = new Intent(list.this, Wisata1.class);
+                    startActivity(intent);
+                }
             }
         });
     }
