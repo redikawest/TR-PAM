@@ -1,5 +1,7 @@
 package com.example.tr;
 
+
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,7 +20,7 @@ public class Wisata1 extends ListFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment1, container, false);
+        return inflater.inflate(R.layout.activity_wisata1, container, false);
     }
 
     @Override
@@ -45,4 +47,5 @@ public class Wisata1 extends ListFragment {
     }
 
 }
+
 
