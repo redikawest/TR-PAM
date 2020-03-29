@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Wisata4"></activity>
+        <activity android:name=".Fragment1"></activity>
+        <activity android:name=".Wisata4" />
         <activity android:name=".Wisata3" />
         <activity android:name=".Wisata2" />
         <activity android:name=".Wisata1" />
-        <activity android:name=".tampil2" />
         <activity android:name=".MainActivity" />
         <activity android:name=".list">
             <intent-filter>

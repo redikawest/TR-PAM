@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TR</string>
+    <string name="fragment1">Contact Details</string>
+    <string name="button1">Add Contact</string>
 </resources>

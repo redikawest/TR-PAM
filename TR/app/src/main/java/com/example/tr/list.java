@@ -46,10 +46,7 @@ public class list extends AppCompatActivity {
                     Intent intent = new Intent(list.this, Wisata4.class);
                     startActivity(intent);
                 }
-                if (potition == 3) {
-                    Intent intent = new Intent(list.this, Wisata1.class);
-                    startActivity(intent);
-                }
+
             }
         });
     }
