@@ -11,8 +11,7 @@ import androidx.fragment.app.Fragment;
 
 public class Fragment1 extends Fragment {
 
-    public Fragment1()
-    {
+    public Fragment1() {
 
     }
 
@@ -20,3 +19,4 @@ public class Fragment1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment1, container, false);
     }
+}

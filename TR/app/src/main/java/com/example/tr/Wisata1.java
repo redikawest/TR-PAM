@@ -9,10 +9,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import androidx.fragment.app.ListFragment;
 
-public class Fragment1 extends ListFragment {
+public class Wisata1 extends ListFragment {
     String[] data = {"Budi", "Cici"};
     String [] data2 = {"12345", "54321"};
-    public Fragment1(){
+    public Wisata1(){
 
     }
 

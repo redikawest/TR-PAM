@@ -31,7 +31,7 @@ public class list extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int potition, long id) {
                 if (potition == 0) {
-                    Intent intent = new Intent(list.this, Wisata1.class);
+                    Intent intent = new Intent(list.this, Fragment1.class);
                     startActivity(intent);
                 }
                 if (potition == 1) {
