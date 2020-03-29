@@ -1,5 +1,7 @@
 package com.example.tr;
 
+
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,16 +11,16 @@ import android.widget.ListView;
 import android.widget.TextView;
 import androidx.fragment.app.ListFragment;
 
-public class Fragment1 extends ListFragment {
+public class Wisata1 extends ListFragment {
     String[] data = {"Budi", "Cici"};
     String [] data2 = {"12345", "54321"};
-    public Fragment1(){
+    public Wisata1(){
 
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment1, container, false);
+        return inflater.inflate(R.layout.activity_wisata1, container, false);
     }
 
     @Override
@@ -45,4 +47,5 @@ public class Fragment1 extends ListFragment {
     }
 
 }
+
 
