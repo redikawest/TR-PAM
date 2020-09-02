@@ -33,6 +33,7 @@ public class list extends AppCompatActivity {
                 if (potition == 0) {
                     Intent intent = new Intent(list.this, Wisata1.class);
                     startActivity(intent);
+
                 }
                 if (potition == 1) {
                     Intent intent = new Intent(list.this, Wisata2.class);
